@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Test {
@@ -9,5 +10,8 @@ public class Test {
         }
         String s=String.valueOf(c);
         System.out.println(s);
+        String s1="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println(s1.toLowerCase());
+
     }
 }
