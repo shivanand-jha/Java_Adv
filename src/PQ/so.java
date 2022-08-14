@@ -12,16 +12,13 @@ public class so {
         {
             int n=sc.nextInt();
             int c=0;
-            for(int i=1; i<n; i++)
+            for(int i=1; i*i<=n; ++i)
             {
-                for(int j=1; j<n; j++)
-                {
-                    if((2*i)+(2*j)+(i*j)==n)
+                    if((n-2*i)%(i+2)==0 && n != 2*i)
                     {
                         System.out.println("YES");
                         c++;
                     }
-                }
             }
             if(c==0)
             {
